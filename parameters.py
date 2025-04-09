@@ -10,7 +10,7 @@ class Parameters(BaseSettings):
     llm_name: str
     fal_api_key: Optional[SecretStr] = None
     fal_model_slug: Optional[str] = None
-    image_generation_chance: float
+    image_generation_chance: Optional[float] = 0.5
 
     def is_all_fal_data_present(self):
         return all([
