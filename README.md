@@ -1,3 +1,5 @@
+This bot is based on [spigot-drama-generator](https://github.com/mdcfe/spigot-drama-generator), with data from [mja00's fork](https://github.com/mja00/spigot-drama-generator)
+
 # How to run
 1. Run `pip install -r requirements.txt`.
 2. Make a copy of `example.env` and rename it to `.env` (or just set the environment variables accordingly).
